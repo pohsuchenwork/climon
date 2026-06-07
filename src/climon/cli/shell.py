@@ -19,7 +19,7 @@ HELP = (
     "  online   battle another player online\n"
     "  legal    affiliation and legal notices\n"
     "  help     show this help\n"
-    "  quit     leave climon"
+    "  quit     leave CLImon"
 )
 
 

@@ -1,3 +1,3 @@
 """climon: a terminal Pokemon battle game played from the command line."""
 
-__version__ = "0.3.6"
+__version__ = "0.4.0"

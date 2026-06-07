@@ -31,13 +31,13 @@ def main(
         typer.Option(
             "--version",
             "-V",
-            help="Show the climon version and exit.",
+            help="Show the CLImon version and exit.",
             callback=_version_callback,
             is_eager=True,
         ),
     ] = False,
 ) -> None:
-    """Run climon. With no command, open the interactive shell."""
+    """Run CLImon. With no command, open the interactive shell."""
     if ctx.invoked_subcommand is not None:
         return
     from climon.cli.shell import run_shell
@@ -47,7 +47,7 @@ def main(
 
 @app.command()
 def start() -> None:
-    """Open the interactive climon menu (the same as running climon with no command)."""
+    """Open the interactive CLImon menu (the same as running climon with no command)."""
     from climon.cli.shell import run_shell
 
     run_shell()

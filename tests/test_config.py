@@ -14,7 +14,7 @@ def test_defaults(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
     monkeypatch.setenv("XDG_CONFIG_HOME", str(tmp_path))
     monkeypatch.delenv("CLIMON_SERVER", raising=False)
     settings = Settings()
-    assert settings.server_url == "ws://localhost:8765"
+    assert settings.server_url == "wss://climon-server.onrender.com"
     assert settings.theme == "dark"
 
 

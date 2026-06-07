@@ -74,7 +74,7 @@ class OnlineLobby(Screen[None]):
 
     def compose(self) -> ComposeResult:
         with Vertical(id="lobby-root"):
-            yield Label("c l i m o n  online", id="lobby-logo")
+            yield Label("C L I m o n  online", id="lobby-logo")
             yield Label("Waking up the server...", id="lobby-status")
             yield Input(placeholder="create  /  join CODE  /  find  /  quit", id="lobby-input")
         yield Footer()

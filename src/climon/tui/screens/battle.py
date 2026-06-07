@@ -149,7 +149,7 @@ class BattleScreen(Screen[None]):
                 # long lines render past the edge and get clipped instead of wrapping.
                 yield RichLog(id="message-log", markup=True, wrap=True, min_width=16)
                 yield CommandGrid(id="command-grid")
-            yield Input(placeholder="fight / pokemon / bag / run / help", id="command-input")
+            yield Input(placeholder="fight / pokemon / bag / run / type / help", id="command-input")
         yield Footer()
 
     def on_mount(self) -> None:
@@ -560,7 +560,9 @@ class BattleScreen(Screen[None]):
     def _prompt(self) -> None:
         active = self._active()
         moves = "  ".join(f"[b]{i + 1}[/] {m.name}" for i, m in enumerate(active.species.moves))
-        self._log(f"What will [b]{active.name}[/] do?  [dim](fight / pokemon / bag / run)[/]")
+        self._log(
+            f"What will [b]{active.name}[/] do?  [dim](fight / pokemon / bag / run / type)[/]"
+        )
         self._log(f"[dim]Moves: {moves}[/]")
 
     def _log(self, message: str) -> None:
