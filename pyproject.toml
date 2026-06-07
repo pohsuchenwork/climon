@@ -1,0 +1,80 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "climon"
+dynamic = ["version"]
+description = "A terminal Pokemon battle game with a classic full-screen TUI, played from the command line."
+readme = "README.md"
+requires-python = ">=3.12"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "pohsuchenwork", email = "281388584+pohsuchenwork@users.noreply.github.com" }]
+keywords = ["pokemon", "tui", "terminal", "game", "textual", "cli", "battle"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Environment :: Console",
+  "Intended Audience :: End Users/Desktop",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Topic :: Games/Entertainment",
+  "Private :: Do Not Upload",
+]
+dependencies = [
+  "textual>=8,<9",
+  "typer>=0.26",
+  "websockets>=16",
+  "pydantic>=2",
+  "pydantic-settings>=2",
+]
+
+[project.urls]
+Homepage = "https://github.com/pohsuchenwork/climon"
+Repository = "https://github.com/pohsuchenwork/climon"
+Changelog = "https://github.com/pohsuchenwork/climon/blob/main/CHANGELOG.md"
+
+[project.scripts]
+climon = "climon.cli.main:app"
+
+[dependency-groups]
+dev = [
+  "pytest>=8",
+  "pytest-asyncio>=0.24",
+  "pytest-textual-snapshot",
+  "coverage>=7",
+  "ruff>=0.6",
+  "mypy>=1.11",
+  "pre-commit>=3.7",
+  "pillow>=10",
+]
+
+[tool.hatch.version]
+path = "src/climon/__init__.py"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/climon"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+src = ["src", "tests", "tools"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM", "C4", "RUF"]
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+files = ["src", "tests", "tools"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.coverage.run]
+source = ["climon"]
+branch = true

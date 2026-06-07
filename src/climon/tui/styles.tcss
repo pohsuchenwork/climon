@@ -1,0 +1,191 @@
+/* climon battle layout. Two columns keep the classic corners without overlap. */
+
+Screen {
+    align: center middle;
+    background: $surface;
+}
+
+#battle-root {
+    width: 80%;
+    max-width: 110;
+    height: auto;
+    layout: vertical;
+}
+
+#scene {
+    height: 19;
+    layout: horizontal;
+}
+
+#left-col {
+    width: 1fr;
+    height: 19;
+    align: left top;
+}
+
+#right-col {
+    width: 1fr;
+    height: 19;
+    align: right top;
+}
+
+#enemy-sprite {
+    width: 28;
+    height: 14;
+}
+
+#player-sprite {
+    width: 28;
+    height: 14;
+}
+
+InfoBox {
+    width: 36;
+    height: auto;
+    border: round $primary;
+    background: $panel;
+    padding: 0 1;
+}
+
+.info-name {
+    text-style: bold;
+    color: $text;
+}
+
+#bottom-band {
+    height: 7;
+}
+
+#message-log {
+    width: 1fr;
+    height: 7;
+    border: round $secondary;
+    background: $panel;
+    padding: 0 1;
+    margin-right: 1;
+    overflow-x: hidden;
+    overflow-y: auto;
+    scrollbar-size-vertical: 1;
+    scrollbar-color: $primary 60%;
+    scrollbar-background: $surface;
+}
+
+#command-grid {
+    width: 36;
+    height: 7;
+    grid-size: 2 2;
+    grid-gutter: 1 1;
+}
+
+.command-cell {
+    background: $boost;
+    color: $text;
+    text-style: bold;
+    content-align: center middle;
+    height: 100%;
+}
+
+#command-input {
+    height: 1;
+    border: none;
+    background: $boost;
+    padding: 0 1;
+}
+
+Footer {
+    dock: bottom;
+}
+
+/* Pick-your-lead screen */
+PickLeadScreen {
+    align: center middle;
+}
+
+#pick-root {
+    width: 56;
+    height: auto;
+    border: round $primary;
+    background: $panel;
+    padding: 1 2;
+}
+
+#pick-logo {
+    width: 100%;
+    text-align: center;
+    text-style: bold;
+    color: $accent;
+}
+
+#pick-title {
+    width: 100%;
+    margin: 1 0 0 0;
+}
+
+.pick-option {
+    width: 100%;
+}
+
+#pick-hint {
+    width: 100%;
+    margin: 1 0;
+}
+
+#pick-team {
+    width: 100%;
+    margin: 1 0 0 0;
+    color: $accent;
+}
+
+#pick-input {
+    width: 100%;
+}
+
+/* Online lobby */
+OnlineLobby {
+    align: center middle;
+}
+
+#lobby-root {
+    width: 70;
+    height: auto;
+    border: round $primary;
+    background: $panel;
+    padding: 1 2;
+}
+
+#lobby-logo {
+    width: 100%;
+    text-align: center;
+    text-style: bold;
+    color: $accent;
+}
+
+#lobby-status {
+    width: 100%;
+    margin: 1 0;
+}
+
+#lobby-input {
+    width: 100%;
+}
+
+/* A hit briefly dims the struck sprite. */
+SpritePanel.hit {
+    opacity: 55%;
+}
+
+/* Resize guard: shown when the terminal is too small for the whole battle. */
+ResizeGuard {
+    align: center middle;
+}
+
+#resize-guard {
+    width: auto;
+    height: auto;
+    padding: 2 4;
+    border: round $warning;
+    background: $panel;
+    color: $warning;
+    text-align: center;
+    text-style: bold;
+}
