@@ -24,7 +24,7 @@ class ClimonApp(App[None]):
     """The root app: pick a lead and battle the computer, or go online."""
 
     CSS_PATH = "styles.tcss"
-    TITLE = "climon"
+    TITLE = "CLImon"
     BINDINGS: ClassVar[list[BindingType]] = [("ctrl+q", "quit", "Quit")]
 
     def __init__(self, session: BattleSession | None = None, *, online: bool = False) -> None:

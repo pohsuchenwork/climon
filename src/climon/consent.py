@@ -1,6 +1,6 @@
 """First-run consent gate: the user must accept the no-warranty, no-liability terms.
 
-Shown the first time climon is launched (and again if the terms version changes). The
+Shown the first time CLImon is launched (and again if the terms version changes). The
 acceptance is recorded in the config dir so it is asked once, not on every launch. Kept
 out of the engine and UI so the CLI entry points and tests can call it directly. The
 ``read``/``write`` hooks make it testable without touching the real terminal.
@@ -18,21 +18,21 @@ ACCEPTANCE_VERSION = "1"
 
 WARNING = f"""\
 ==================  PLEASE READ BEFORE USING  ==================
-climon is a free, unofficial fan project, provided AS IS.
+CLImon is a free, unofficial fan project, provided AS IS.
 
   WARNING 1 of 3 - NO WARRANTY
-  climon comes with absolutely no warranty of any kind. It may
+  CLImon comes with absolutely no warranty of any kind. It may
   not work, may stop working, or may behave unexpectedly.
 
   WARNING 2 of 3 - USE AT YOUR OWN RISK
-  You install and run climon entirely at your own risk. You are
+  You install and run CLImon entirely at your own risk. You are
   responsible for your own computer, your data, and anything
   that happens on your machine.
 
   WARNING 3 of 3 - NO LIABILITY
   To the maximum extent permitted by law, the author is not
   liable for any damage, data loss, or harm of any kind arising
-  from installing or using climon. If something breaks, that is
+  from installing or using CLImon. If something breaks, that is
   not the author's responsibility.
 
 {AFFILIATION}
@@ -40,7 +40,7 @@ climon is a free, unofficial fan project, provided AS IS.
 Full notices: run 'climon legal' or see the legal/ folder.
 ================================================================"""
 
-PROMPT = "Type 'agree' to accept and use climon, or anything else to exit: "
+PROMPT = "Type 'agree' to accept and use CLImon, or anything else to exit: "
 
 
 def has_accepted() -> bool:
@@ -73,11 +73,11 @@ def require_acceptance(
     try:
         answer = read(PROMPT)
     except (EOFError, KeyboardInterrupt):
-        write("\nNo response received, so climon will not run.")
+        write("\nNo response received, so CLImon will not run.")
         return False
     if answer.strip().lower() != "agree":
-        write("You did not accept the terms, so climon will not run.")
+        write("You did not accept the terms, so CLImon will not run.")
         return False
     record_acceptance()
-    write("Thanks. Enjoy climon.  (Review the notices any time with 'climon legal'.)\n")
+    write("Thanks. Enjoy CLImon.  (Review the notices any time with 'climon legal'.)\n")
     return True

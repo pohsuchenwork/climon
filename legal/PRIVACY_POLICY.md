@@ -1,4 +1,4 @@
-# climon - Privacy Policy
+# CLImon - Privacy Policy
 
 > **DRAFT - NOT YET IN FORCE. REQUIRES REVIEW BY A LICENSED ATTORNEY.**
 > Prepared by an AI assistant in a drafting capacity. Not legal advice.
@@ -7,7 +7,7 @@
 > (GDPR/UK GDPR), California (CCPA/CPRA), or other regulated regions, those laws impose
 > mandatory obligations (lawful basis, transparency, data-subject rights, possibly a data
 > processing agreement with your hosting provider, and an EU/UK representative if you have no
-> local establishment) that this document only outlines. This Policy describes climon as
+> local establishment) that this document only outlines. This Policy describes CLImon as
 > built today; it must be reviewed by a privacy-competent lawyer and kept accurate as the
 > product changes.
 
@@ -17,11 +17,11 @@
 ## 1. Who this Policy covers
 
 This Policy explains how [PLACEHOLDER: Operator legal name] ("Operator", "we", "us")
-handles personal data when you use climon, in particular its online play service ("Service").
+handles personal data when you use CLImon, in particular its online play service ("Service").
 The Operator is the data controller for the limited processing described here. Contact:
 [PLACEHOLDER: contact email].
 
-climon is a terminal program. It has **no user accounts, no passwords, no payments, no
+CLImon is a terminal program. It has **no user accounts, no passwords, no payments, no
 advertising, no analytics or tracking, and no cookies.** We designed it to process as little
 personal data as possible.
 
@@ -44,7 +44,7 @@ or log connection metadata under their own policies. [FLAG: confirm what your ho
 provider, currently [PLACEHOLDER: hosting provider, for example Render], logs and for how
 long, and whether you need a data processing agreement with them.]
 
-**(c) Data stored locally on your own device.** climon stores a configuration file and a log
+**(c) Data stored locally on your own device.** CLImon stores a configuration file and a log
 file **on your own computer** (by default under your user config and state directories). These
 may contain the server address you connect to, your chosen display name, your theme and
 motion settings, and local diagnostic log lines. These files stay on your device and are not
@@ -109,7 +109,7 @@ or storage is completely secure, and we cannot guarantee absolute security.
 
 ## 9. Children
 
-> [FLAG - children's privacy] climon is Pokemon-themed and may appeal to children. If you
+> [FLAG - children's privacy] CLImon is Pokemon-themed and may appeal to children. If you
 > knowingly process personal data from children below the applicable age (for example, under
 > 13 under COPPA, or under the digital-consent age under the GDPR), special rules apply,
 > including verifiable parental consent in some cases. The Terms of Service set a minimum age;

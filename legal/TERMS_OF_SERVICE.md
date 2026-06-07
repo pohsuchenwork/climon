@@ -1,4 +1,4 @@
-# climon - Terms of Service
+# CLImon - Terms of Service
 
 > **DRAFT - NOT YET IN FORCE. REQUIRES REVIEW BY A LICENSED ATTORNEY.**
 >
@@ -25,14 +25,14 @@
 
 These Terms of Service ("Terms") are a legal agreement between you ("you" or "User") and
 [PLACEHOLDER: Operator legal name] [PLACEHOLDER: , a (type of entity) / , an individual]
-("Operator", "we", "us", or "our"), the provider of the climon software and the online
+("Operator", "we", "us", or "our"), the provider of the CLImon software and the online
 play service described below.
 
-By downloading, installing, accessing, or using climon, or by connecting to the online
-play service, you agree to these Terms. If you do not agree, do not use climon or the
+By downloading, installing, accessing, or using CLImon, or by connecting to the online
+play service, you agree to these Terms. If you do not agree, do not use CLImon or the
 online service.
 
-> [FLAG - acceptance mechanism] climon is a command-line program, so acceptance here is by
+> [FLAG - acceptance mechanism] CLImon is a command-line program, so acceptance here is by
 > conduct (use), which is a "browsewrap"-style mechanism. Courts enforce this less reliably
 > than an affirmative "I agree" click, especially against consumers. For stronger
 > enforceability of the online service terms in particular, consider a one-time in-product
@@ -42,7 +42,7 @@ online service.
 
 ## 2. Definitions
 
-- **"Software"** means the climon client software, including its original source code and
+- **"Software"** means the CLImon client software, including its original source code and
   binaries made available by the Operator.
 - **"Service"** means the online play functionality the Operator makes available, including
   the matchmaking and battle server that the Software connects to.
@@ -53,10 +53,10 @@ online service.
 
 ## 3. Eligibility and age
 
-You may use climon only if you can form a binding contract with the Operator and are not
+You may use CLImon only if you can form a binding contract with the Operator and are not
 barred from doing so under applicable law. You must be at least [PLACEHOLDER: minimum age,
 for example 13 or 16] years old, or the minimum age of digital consent in your country,
-whichever is higher. If you are a minor where you live, you may use climon only with the
+whichever is higher. If you are a minor where you live, you may use CLImon only with the
 involvement and consent of a parent or legal guardian, who agrees to these Terms on your
 behalf.
 
@@ -69,12 +69,12 @@ behalf.
 ## 4. License to the Software
 
 The original Software is open-source software licensed under the MIT License (see the
-`LICENSE` file distributed with climon). Your rights to the original Software are governed
+`LICENSE` file distributed with CLImon). Your rights to the original Software are governed
 by that license, and nothing in these Terms is intended to reduce the rights the MIT
 License grants you in the original Software.
 
 These Terms additionally govern your use of the Service and your conduct when using
-climon. To the extent these Terms and the MIT License conflict as to the original
+CLImon. To the extent these Terms and the MIT License conflict as to the original
 Software, the MIT License controls for the original Software; these Terms control for the
 Service and for everything they do not address in the MIT License.
 
@@ -101,7 +101,7 @@ to keep providing it, or to provide any particular level of performance.
 
 You agree that you will not, and will not attempt to:
 
-- use climon or the Service for any unlawful, harmful, fraudulent, or infringing purpose;
+- use CLImon or the Service for any unlawful, harmful, fraudulent, or infringing purpose;
 - interfere with, overload, disrupt, or attack the Service or its infrastructure, including
   by flooding connections, exploiting bugs, sending malformed or oversized data, or
   circumventing the Service's technical limits or protections;
@@ -112,7 +112,7 @@ You agree that you will not, and will not attempt to:
   or otherwise objectionable;
 - use automated means to access or abuse the Service in a manner that degrades it for
   others; or
-- use climon or the Service in violation of any applicable law or third-party right.
+- use CLImon or the Service in violation of any applicable law or third-party right.
 
 The Operator may investigate suspected violations and may, in its sole discretion and to
 the extent permitted by law, remove Content, and suspend, restrict, or terminate your
@@ -137,12 +137,12 @@ users. The Operator may remove or refuse any Content at its discretion.
 
 As between you and the Operator, the Operator (or its licensors) owns the original Software
 and all related intellectual property rights, except for rights expressly granted under the
-MIT License and except for Third-Party Materials owned by others. The "climon" name and any
+MIT License and except for Third-Party Materials owned by others. The "CLImon" name and any
 Operator logos are the Operator's; the MIT License does not grant trademark rights.
 
 ## 9. Third-Party Materials, trademarks, and affiliation
 
-climon is an unofficial, non-commercial fan project. The Operator is **not affiliated with,
+CLImon is an unofficial, non-commercial fan project. The Operator is **not affiliated with,
 endorsed by, sponsored by, or associated with** Nintendo, Creatures Inc., GAME FREAK Inc.,
 The Pokemon Company, or any of their affiliates.
 
@@ -153,26 +153,26 @@ to, or claim of ownership in, any such rights is intended.
 
 > [FLAG - HIGHEST PRIORITY, NOT CURED BY THESE TERMS] A disclaimer of affiliation reduces
 > the risk of trademark confusion but does **not** make it lawful to copy and distribute
-> another party's copyrighted sprites or other assets. As distributed today, climon bundles
+> another party's copyrighted sprites or other assets. As distributed today, CLImon bundles
 > Pokemon sprite artwork and uses Pokemon names, which are owned by the parties named above.
 > Distributing those assets (publishing the repository or binaries, hosting a public server
 > that serves them, or otherwise making them available) likely infringes copyright and
 > possibly trademark, and no Terms of Service, EULA, or disclaimer can authorize that or
-> shift that liability onto your users. Before making climon available to anyone, you must
+> shift that liability onto your users. Before making CLImon available to anyone, you must
 > replace the bundled Pokemon assets and names with original or properly licensed content,
 > or obtain a license from the rights holders. This is a legal blocker for any release and
 > must be resolved with a lawyer. See `DISCLAIMER.md`.
 
 ## 10. Disclaimer of warranties
 
-To the maximum extent permitted by applicable law, climon and the Service are provided "AS
+To the maximum extent permitted by applicable law, CLImon and the Service are provided "AS
 IS" and "AS AVAILABLE", with all faults, and the Operator disclaims all warranties,
 conditions, and representations of any kind, whether express, implied, statutory, or
 otherwise, including any implied warranties or conditions of merchantability, satisfactory
 quality, fitness for a particular purpose, title, non-infringement, accuracy, and any
 warranties arising from course of dealing or usage of trade.
 
-The Operator does not warrant that climon or the Service will meet your requirements, be
+The Operator does not warrant that CLImon or the Service will meet your requirements, be
 available or uninterrupted, be secure or free of errors or harmful components, or that any
 defects will be corrected.
 
@@ -188,19 +188,19 @@ To the maximum extent permitted by applicable law:
 
 (a) **No indirect damages.** The Operator will not be liable for any indirect, incidental,
 special, consequential, exemplary, or punitive damages, or for any loss of profits,
-revenue, data, goodwill, or other intangible losses, arising out of or relating to climon
+revenue, data, goodwill, or other intangible losses, arising out of or relating to CLImon
 or the Service, even if advised of the possibility of such damages and even if a remedy
 fails of its essential purpose.
 
 (b) **Aggregate cap.** The Operator's total aggregate liability arising out of or relating
-to climon, the Service, and these Terms will not exceed the greater of (i) the total amount
+to CLImon, the Service, and these Terms will not exceed the greater of (i) the total amount
 you paid the Operator for the Service in the twelve (12) months before the event giving
 rise to the liability (which, for a free Service, is zero), or (ii) [PLACEHOLDER: a nominal
 cap, for example USD 50].
 
 (c) **Excluded matters.** Without limiting the above, the Operator is not liable for: your
-use or misuse of climon or the Service; decisions you make or actions you take in reliance
-on climon or the Service; loss of or damage to data or devices; downtime, suspension, or
+use or misuse of CLImon or the Service; decisions you make or actions you take in reliance
+on CLImon or the Service; loss of or damage to data or devices; downtime, suspension, or
 discontinuation of the Service; the conduct or Content of other users; or the acts,
 omissions, content, availability, or services of any third party (including hosting,
 network, and platform providers).
@@ -224,7 +224,7 @@ To the maximum extent permitted by applicable law, you agree to indemnify, defen
 harmless the Operator and its officers, employees, contractors, and agents from and against
 any claims, demands, actions, damages, losses, liabilities, and costs and expenses
 (including reasonable legal fees) arising out of or relating to: (a) your use or misuse of
-climon or the Service; (b) your Content; (c) your breach of these Terms; or (d) your
+CLImon or the Service; (b) your Content; (c) your breach of these Terms; or (d) your
 violation of any law or any third-party right. The Operator may, at its own expense, assume
 the exclusive defense and control of any matter subject to indemnification by you, in which
 case you will cooperate with the Operator.
@@ -243,7 +243,7 @@ them.
 
 ## 14. Suspension, termination, and survival
 
-You may stop using climon and the Service at any time. The Operator may suspend, restrict,
+You may stop using CLImon and the Service at any time. The Operator may suspend, restrict,
 or terminate your access to the Service at any time, with or without cause and, to the
 extent permitted by law, without notice or liability. Sections that by their nature should
 survive termination (including Sections 7 through 13, 15, and 16) survive.
@@ -280,7 +280,7 @@ resolve the dispute informally for at least thirty (30) days.
   in full force.
 - **Entire agreement.** These Terms, together with the EULA, the Privacy Policy, the
   Disclaimer, and the MIT License (for the original Software), are the entire agreement
-  between you and the Operator regarding climon and the Service, and supersede prior
+  between you and the Operator regarding CLImon and the Service, and supersede prior
   agreements on that subject.
 - **No waiver.** A failure to enforce a provision is not a waiver of it.
 - **Assignment.** You may not assign these Terms without the Operator's prior written

@@ -1,4 +1,4 @@
-# climon - Legal documents
+# CLImon - Legal documents
 
 > **All documents in this folder are DRAFTS prepared by an AI assistant in a drafting
 > capacity. They are not legal advice and must be reviewed by a licensed attorney in your
@@ -10,7 +10,7 @@
 | File | Purpose |
 |------|---------|
 | `TERMS_OF_SERVICE.md` | The main agreement: acceptance, the Service "as is", acceptable use, your content, disclaimers, limitation of liability, indemnity, IP/affiliation, governing law. |
-| `EULA.md` | A short software-license notice. climon's code is MIT-licensed (see `../LICENSE`), so this is consistent with MIT, not a restrictive EULA. |
+| `EULA.md` | A short software-license notice. CLImon's code is MIT-licensed (see `../LICENSE`), so this is consistent with MIT, not a restrictive EULA. |
 | `PRIVACY_POLICY.md` | What limited personal data the online service processes and your rights. |
 | `DISCLAIMER.md` | Affiliation/trademark disclaimer, "as is" notice, and the highest-priority IP warning. |
 

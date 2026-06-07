@@ -47,9 +47,12 @@ class Settings(BaseSettings):
     model_config = SettingsConfigDict(env_prefix="CLIMON_", extra="ignore")
 
     server_url: str = Field(
-        default="ws://localhost:8765",
+        default="wss://climon-server.onrender.com",
         validation_alias=AliasChoices("server_url", "CLIMON_SERVER"),
-        description="WebSocket URL of the climon online server.",
+        description=(
+            "WebSocket URL of the CLImon online server. Defaults to the hosted server; "
+            "set CLIMON_SERVER (for example ws://localhost:8765) to self-host."
+        ),
     )
     player_name: str = Field(default="Player", min_length=1, max_length=24)
     theme: Literal["dark", "light"] = "dark"

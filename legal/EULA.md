@@ -1,9 +1,9 @@
-# climon - End User License Agreement (EULA)
+# CLImon - End User License Agreement (EULA)
 
 > **DRAFT - NOT YET IN FORCE. REQUIRES REVIEW BY A LICENSED ATTORNEY.**
 > Prepared by an AI assistant in a drafting capacity. Not legal advice.
 >
-> [FLAG - read this first] climon's original source code is licensed under the **MIT
+> [FLAG - read this first] CLImon's original source code is licensed under the **MIT
 > License** (an open-source, permissive license). For open-source software, the MIT
 > `LICENSE` file is the operative software license, and it already grants users broad
 > rights to use, copy, modify, and distribute the original code. A traditional, restrictive
@@ -11,7 +11,7 @@
 > that purports to revoke the license) would **contradict the MIT License and would be
 > confusing and largely unenforceable** as to the original code. This document is therefore
 > a short license notice that is consistent with MIT, not a restrictive EULA. If you intend
-> to relicense climon as proprietary (closed-source) software, do not use this file: have a
+> to relicense CLImon as proprietary (closed-source) software, do not use this file: have a
 > lawyer prepare a proper proprietary EULA and change the project license accordingly.
 
 **Effective date:** [PLACEHOLDER: effective date]
@@ -23,7 +23,7 @@ is provided by [PLACEHOLDER: Operator legal name] ("Operator") to you ("you").
 
 ## 2. License to the original Software (MIT)
 
-The original climon source code and binaries (the "Software") are licensed to you under the
+The original CLImon source code and binaries (the "Software") are licensed to you under the
 MIT License set out in the `LICENSE` file. That license governs your rights to use, copy,
 modify, merge, publish, distribute, sublicense, and sell copies of the original Software,
 subject to its conditions (including keeping the copyright and permission notice). Nothing

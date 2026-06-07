@@ -30,7 +30,7 @@ class PickLeadScreen(Screen[None]):
 
     def compose(self) -> ComposeResult:
         with Vertical(id="pick-root"):
-            yield Label("c l i m o n", id="pick-logo")
+            yield Label("C L I m o n", id="pick-logo")
             yield Label("Draft your team: pick 3 (your lead first).", id="pick-title")
             for index, species in enumerate(ROSTER):
                 yield Label(
