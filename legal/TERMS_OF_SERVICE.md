@@ -274,12 +274,14 @@ resolve the dispute informally for at least thirty (30) days.
 
 ## 16. General
 
-- **Changes to these Terms.** The Operator may update these Terms from time to time. Changes
-  take effect when posted (or on the stated effective date). Your continued use after
-  changes take effect means you accept the updated Terms. For material changes, the Operator
-  will take reasonable steps to bring them to users' attention. [FLAG: against consumers,
-  unilateral changes generally require notice and, for significant changes, a right to stop
-  using or reject; a lawyer should confirm.]
+- **Changes to these Terms.** The Operator may change, update, or replace these Terms (and the
+  EULA, Privacy Policy, and Disclaimer) at any time, at its sole discretion and without any
+  obligation. Changes take effect when posted (or on the stated effective date). It is your
+  responsibility to review the current Terms; your continued use after changes take effect means
+  you accept them, and if you do not agree your only remedy is to stop using CLImon. For material
+  changes, the Operator will take reasonable steps to bring them to users' attention. [FLAG:
+  against consumers, unilateral changes generally require notice and, for significant changes, a
+  right to stop using or reject; a lawyer should confirm.]
 - **Severability.** If any provision of these Terms is held invalid or unenforceable, that
   provision is enforced to the maximum extent permitted and the remaining provisions remain
   in full force.
