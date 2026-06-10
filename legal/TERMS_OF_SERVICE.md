@@ -97,6 +97,10 @@ connections, matches, or message sizes); and take the Service offline permanentl
 The Service is provided free of charge. The Operator is under no obligation to provide it,
 to keep providing it, or to provide any particular level of performance.
 
+The same applies to the Software itself: the Operator has no obligation to maintain, update,
+patch, fix, or support it, and may stop doing so at any time. There is no upkeep commitment of
+any kind for either the Software or the Service.
+
 ## 6. Acceptable use
 
 You agree that you will not, and will not attempt to:
@@ -184,7 +188,8 @@ defects will be corrected.
 
 ## 11. Limitation of liability
 
-To the maximum extent permitted by applicable law:
+To the maximum extent permitted by applicable law, the Operator is not liable for anything
+arising out of or relating to CLImon or the Service. In particular:
 
 (a) **No indirect damages.** The Operator will not be liable for any indirect, incidental,
 special, consequential, exemplary, or punitive damages, or for any loss of profits,
@@ -269,12 +274,14 @@ resolve the dispute informally for at least thirty (30) days.
 
 ## 16. General
 
-- **Changes to these Terms.** The Operator may update these Terms from time to time. Changes
-  take effect when posted (or on the stated effective date). Your continued use after
-  changes take effect means you accept the updated Terms. For material changes, the Operator
-  will take reasonable steps to bring them to users' attention. [FLAG: against consumers,
-  unilateral changes generally require notice and, for significant changes, a right to stop
-  using or reject; a lawyer should confirm.]
+- **Changes to these Terms.** The Operator may change, update, or replace these Terms (and the
+  EULA, Privacy Policy, and Disclaimer) at any time, at its sole discretion and without any
+  obligation. Changes take effect when posted (or on the stated effective date). It is your
+  responsibility to review the current Terms; your continued use after changes take effect means
+  you accept them, and if you do not agree your only remedy is to stop using CLImon. For material
+  changes, the Operator will take reasonable steps to bring them to users' attention. [FLAG:
+  against consumers, unilateral changes generally require notice and, for significant changes, a
+  right to stop using or reject; a lawyer should confirm.]
 - **Severability.** If any provision of these Terms is held invalid or unenforceable, that
   provision is enforced to the maximum extent permitted and the remaining provisions remain
   in full force.
