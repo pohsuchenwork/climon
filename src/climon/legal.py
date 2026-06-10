@@ -27,10 +27,13 @@ ATTRIBUTION = (
 NOTICE = (
     f"{AFFILIATION}\n\n"
     f"{ATTRIBUTION}\n\n"
-    "CLImon is provided AS IS, without warranty of any kind, and any online service may "
-    "change, be limited, or stop at any time without liability. Use of CLImon, and "
-    "especially online play, is subject to the Terms of Service, EULA, and Privacy Policy "
-    "in the project's legal/ folder, and to the MIT LICENSE for the software.\n"
+    "CLImon is provided AS IS, without warranty of any kind. To the maximum extent permitted "
+    "by law, the author is not liable for anything arising from your use of it, has no "
+    "obligation to maintain, update, or support it, and is not responsible for third-party "
+    "services or for how you use it. Any online service may change, be limited, or stop at "
+    "any time without liability. Use of CLImon, and especially online play, is subject to the "
+    "Terms of Service, EULA, and Privacy Policy in the project's legal/ folder, and to the MIT "
+    "LICENSE for the software.\n"
     "Your statutory consumer rights, where they apply, are not affected.\n\n"
     "Full documents: see the legal/ folder in the CLImon project."
 )

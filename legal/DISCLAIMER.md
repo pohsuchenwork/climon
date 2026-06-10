@@ -21,14 +21,29 @@ If you represent a rights holder and would like CLImon, or any specific asset, r
 open an issue on the project's GitHub repository. The maintainer's intent is to respect the
 rights holders' wishes and to remove or replace the material promptly on request.
 
-## No warranty; "as is"
+## No warranty, no upkeep, no liability, no responsibility for what is not ours
 
-CLImon and any online service are provided "AS IS" and "AS AVAILABLE", without warranties of
-any kind, to the maximum extent permitted by applicable law. The Operator does not guarantee
-that CLImon will be available, uninterrupted, secure, error-free, or fit for any particular
-purpose, and provides no support, maintenance, or uptime commitment. You use CLImon at your
-own risk. Your statutory consumer rights, where they apply, are not affected. See
-`TERMS_OF_SERVICE.md` for the full disclaimer and limitation of liability.
+CLImon (the software) and any online service are provided **"AS IS"** and **"AS AVAILABLE"**,
+without warranties of any kind, to the maximum extent permitted by applicable law. In plain
+terms:
+
+- **No liability.** To the maximum extent permitted by applicable law, the Operator is **not
+  liable for anything** arising out of or relating to CLImon or the online service, including
+  any damage, data loss, lost time, downtime, or other harm of any kind.
+- **No upkeep.** The Operator has **no obligation** to maintain, update, patch, fix, support,
+  host, or keep CLImon or the service running, and may change, limit, suspend, or shut down any
+  part of it at any time, without notice and without liability.
+- **Not responsible for what is not the Operator's.** The Operator is **not responsible** for
+  things outside its control or that are your concern, including: how you use or misuse CLImon;
+  decisions you make in reliance on it; your own computer, data, accounts, or network; the
+  conduct or content of other players; and the acts, services, content, or availability of any
+  third party (such as hosting, network, or platform providers).
+
+You use CLImon entirely at your own risk. The one limit, which the law requires: nothing here
+excludes liability that **cannot** be excluded under applicable law (for example, death or
+personal injury caused by negligence, fraud, or your non-excludable statutory consumer rights).
+No one can waive those, and trying to would risk voiding the rest. See `TERMS_OF_SERVICE.md`
+Sections 5, 10, 11, and 13 for the full, governing versions.
 
 ## Operator notice (most important - this disclaimer does not cure the issue below)
 

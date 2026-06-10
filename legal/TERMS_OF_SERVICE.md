@@ -97,6 +97,10 @@ connections, matches, or message sizes); and take the Service offline permanentl
 The Service is provided free of charge. The Operator is under no obligation to provide it,
 to keep providing it, or to provide any particular level of performance.
 
+The same applies to the Software itself: the Operator has no obligation to maintain, update,
+patch, fix, or support it, and may stop doing so at any time. There is no upkeep commitment of
+any kind for either the Software or the Service.
+
 ## 6. Acceptable use
 
 You agree that you will not, and will not attempt to:
@@ -184,7 +188,8 @@ defects will be corrected.
 
 ## 11. Limitation of liability
 
-To the maximum extent permitted by applicable law:
+To the maximum extent permitted by applicable law, the Operator is not liable for anything
+arising out of or relating to CLImon or the Service. In particular:
 
 (a) **No indirect damages.** The Operator will not be liable for any indirect, incidental,
 special, consequential, exemplary, or punitive damages, or for any loss of profits,
