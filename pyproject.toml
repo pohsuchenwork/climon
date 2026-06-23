@@ -28,7 +28,7 @@ dependencies = [
   "typer>=0.26",
   "websockets>=16",
   "pydantic>=2",
-  "pydantic-settings>=2",
+  "pydantic-settings>=2.14.2",
 ]
 
 [project.urls]
