@@ -1,0 +1,18 @@
+# Keep the build context small: the server image needs only pyproject, the
+# readme/license, and src/. Everything else is dev-only.
+.git
+.github
+.venv
+context
+tests
+tools
+assets
+*.png
+*.svg
+.mypy_cache
+.ruff_cache
+.pytest_cache
+**/__pycache__
+**/*.pyc
+.pre-commit-config.yaml
+uv.lock

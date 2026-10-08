@@ -1,0 +1,22 @@
+# Render Blueprint for the climon online server (free plan, forever-free).
+#
+# Deploy: push this repo to GitHub, then in the Render dashboard choose
+# "New +" -> "Blueprint" and point it at the repo. Render reads this file,
+# builds the Dockerfile, and runs `python -m climon.server` on the free plan.
+#
+# The service binds Render's injected $PORT and answers HTTP health probes with
+# 200 (it otherwise speaks only WebSocket). A free service sleeps after 15 minutes
+# idle and wakes on the next connection (about a minute); the client shows a
+# "waking the server" message and waits. It stays awake during an active battle.
+# Use the resulting wss://<service>.onrender.com as CLIMON_SERVER:
+#   CLIMON_SERVER=wss://climon-server.onrender.com climon online
+services:
+  - type: web
+    name: climon-server
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /
+    envVars:
+      - key: CLIMON_HOST
+        value: 0.0.0.0

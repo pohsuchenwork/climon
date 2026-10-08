@@ -1,0 +1,32 @@
+# Fly.io deployment for the climon online server.
+#
+# First deploy (creates the app under your account):
+#   fly auth login
+#   fly launch --copy-config --no-deploy   # accept this config; pick an app name
+#   fly deploy
+#
+# The app name below is a placeholder; Fly app names are globally unique, so
+# `fly launch` will offer to rename it if it is taken. Clients then connect with
+#   CLIMON_SERVER=wss://<your-app>.fly.dev climon online
+# Fly terminates TLS at the edge and forwards plain ws to the container.
+app = "climon-server"
+primary_region = "sjc"
+
+[build]
+
+[env]
+  CLIMON_HOST = "0.0.0.0"
+  CLIMON_PORT = "8080"
+
+# A single WebSocket service. force_https makes the edge speak wss; the machine
+# scales to zero when idle and wakes on the next connection (a few seconds).
+[http_service]
+  internal_port = 8080
+  force_https = true
+  auto_stop_machines = "stop"
+  auto_start_machines = true
+  min_machines_running = 0
+
+[[vm]]
+  size = "shared-cpu-1x"
+  memory = "256mb"

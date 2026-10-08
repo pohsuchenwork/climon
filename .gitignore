@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# uv / virtualenv (lockfile IS committed)
+.venv/
+
+# Environment and secrets
+.env
+.env.*
+
+# Tooling caches
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Textual snapshot test report
+snapshot_report.html
+
+# Local Claude Code settings
+.claude/
+
+# OS
+.DS_Store
