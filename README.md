@@ -25,7 +25,7 @@ accept all three of the following:
    something breaks on your machine, that is not the author's responsibility.
 
 The app shows this warning and asks you to accept it the first time you run it. Full notices:
-run `climon legal` or see the `legal/` folder.
+run `climon legal` or see `legal/DISCLAIMER.md`.
 
 ## Quick start (macOS) - never used a terminal? Start here
 
@@ -121,7 +121,7 @@ the day takes a few seconds to wake up (CLImon shows a "waking the server" anima
 stays awake while you play.
 
 Online play is authoritative: the server owns the random seed and resolves every turn, so the
-two clients only propose actions and no client can cheat. The sprite art never crosses the
+two clients only propose actions and a client cannot change how a turn resolves. The sprite art never crosses the
 network; only game actions and state do.
 
 ### Run your own server (optional)
@@ -179,7 +179,7 @@ takedown or claim. Replacing the sprites and names with original or openly licen
 the only way to be fully in the clear. See `legal/DISCLAIMER.md`.
 
 **Rights holders:** if you represent a rights holder and would like CLImon, or any specific
-asset, removed, please open an issue on this repository and it will be taken down promptly.
+asset, removed, please open an issue on this repository.
 
 ## Legal
 
